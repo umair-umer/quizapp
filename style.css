@@ -1,0 +1,169 @@
+body {
+    background-color: #EBEAEF
+}
+
+.container {
+    flex-wrap: wrap
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #4270C8;
+    width: 350px;
+    margin-top: -60px
+}
+
+p.mb-1 {
+    font-size: 25px;
+    color: #9FB7FD
+}
+
+.btn-primary {
+    border: none;
+    background: #5777DE;
+    margin-bottom: 60px
+}
+
+.btn-primary small {
+    color: #9FB7FD
+}
+
+.btn-primary span {
+    font-size: 13px
+}
+
+.card.two {
+    border-top-right-radius: 60px;
+    border-top-left-radius: 0
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2rem
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #E6EBEE
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 2px solid #8A97A8
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: all 200ms;
+    opacity: 0.5;
+    font-size: 80%
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 80%;
+    transform: translate3d(0, -90%, 0);
+    opacity: 1;
+    top: 10px;
+    color: #8B92AC
+}
+
+.btn-block {
+    border: none;
+    border-radius: 8px;
+    background-color: #506CCF;
+    padding: 10px 0 12px
+}
+.col-12{
+    
+}
+
+.btn-block:focus {
+    box-shadow: none
+}
+
+.btn-block span {
+    font-size: 15px;
+    color: #D0E6FF
+}
+
+
+
+
+.contnt{
+    display: flex;
+    justify-content:center;
+    border: 1px solid black;
+    padding: 8%;
+    margin-top: 10%;
+    background: rgb(61, 173, 155);
+    border-radius: 20%;
+    
+}
+.bt{
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 25%;
+    width: 100px;
+    background: rgb(152, 240, 225);
+}
+p{
+    cursor: pointer;
+}
+
+.bt:hover{
+    transform: 0.5s;
+    background: rgb(45, 99, 92);
+}
+
+.card2{
+    margin-top: 5% !important;
+    width: 800px;
+    
+}
+.btn-n{
+   
+    background:  #4aada0;
+    font-weight: 600;
+    padding: 3%;
+    text-decoration: none;
+    float: right;
+    color: white;
+    border-radius: 15%;
+    
+}
+.ctr{
+    display: flex;
+    justify-content: center;
+}
+p.card-text{
+    margin-top: 10px !important;
+    padding: 2%;
+    
+}
+.active{
+    background: #4aada0;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+}
+.card-header ,p{
+    padding: 1%;
+
+}
+.card-header h1{
+    align-items: center;
+}
+.bg{
+    width: 100px;
+    background: #000;
+    float: right;
+    color: white;
+}
